@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qirat | Web Developer Portfolio</title>
+    <meta name="description" content="Qirat — Web Developer and Computer Science student. Internships in C and C++, certified in AI, cloud and cybersecurity fundamentals.">
+
+    <link rel="preload" href="bebas-neue-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Qirat<span>.</span></a>
+
+            <nav class="nav-links" id="navLinks" aria-label="Main">
+                <a href="#home" class="active">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#contact" class="nav-btn">Let's Talk</a>
+
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ================= HOME ================= -->
+        <section id="home" class="hero">
+            <div class="hero-bg-text" aria-hidden="true" id="bgText">PORTFOLIO</div>
+
+            <div class="container hero-inner">
+
+                <div class="hero-meta">
+                    <p><strong>Web Developer</strong><br>Computer Science Student</p>
+                    <p class="avail"><span>Open to internships &amp; projects</span></p>
+                </div>
+
+                <div class="hero-photo" id="heroPhoto">
+                    <img src="profile-cutout.png" alt="Qirat - Web Developer" width="843" height="944">
+                </div>
+
+                <div class="hero-left">
+                    <p class="hello">Hello, I'm</p>
+                    <h1>Qirat</h1>
+                    <h2>Web Developer &amp;<br>Future Software Engineer</h2>
+                    <p class="hero-description">
+                        I design and build modern, responsive and user-focused websites.
+                        Two programming internships and a growing list of AI, cloud and
+                        cybersecurity certificates in — still learning something new every week.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="primary-btn">View My Work</a>
+                        <a href="#certificates" class="secondary-btn">See Certificates</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/qirat-programmer" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+                        <a href="https://www.linkedin.com/in/qirat-iqbal/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <div class="tagline">
+                        <p>Turning ideas into powerful digital experiences.</p>
+                    </div>
+                    <ul class="hero-stats">
+                        <li><strong><span data-count="2">2</span></strong><span>Internships<br>Completed</span></li>
+                        <li><strong><span data-count="11">11</span></strong><span>Course<br>Certificates</span></li>
+                        <li><strong><span data-count="4">4</span></strong><span>Programming<br>Languages</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+        <section id="projects" class="sec projects-section">
+            <div class="container">
+                <div class="sec-head">
+                    <h2>Selected Projects</h2>
+                    <span class="rule"></span>
+                    <a href="https://github.com/qirat-programmer" target="_blank" rel="noopener" class="head-link">View all on GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project">
+                        <div class="mock m1">
+                            <div class="mock-bar"><i></i><i></i><i></i></div>
+                            <div class="mock-body">
+                                <b>Elegant<br>Jewellery</b>
+                                <em>Shop the collection</em>
+                                <div class="mock-shapes"><i></i><i></i><i></i></div>
+                            </div>
+                        </div>
+                        <div class="project-row">
+                            <span class="num">01</span>
+                            <div>
+                                <h3>Jewellery Website</h3>
+                                <p>HTML • CSS • JavaScript</p>
+                            </div>
+                            <span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener">Live Demo ↗</a>
+                            <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div class="mock m2">
+                            <div class="mock-bar"><i></i><i></i><i></i></div>
+                            <div class="mock-body code">
+                                <code><span>struct</span> Student {<br>&nbsp;&nbsp;int id;<br>&nbsp;&nbsp;char name[50];<br>};<br><span>fopen</span>("data.txt");</code>
+                            </div>
+                        </div>
+                        <div class="project-row">
+                            <span class="num">02</span>
+                            <div>
+                                <h3>Student Management System</h3>
+                                <p>C Programming</p>
+                            </div>
+                            <span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div class="mock m3">
+                            <div class="mock-bar"><i></i><i></i><i></i></div>
+                            <div class="mock-body">
+                                <b>Hello,<br>I'm Qirat</b>
+                                <em>Web Developer</em>
+                                <div class="mock-shapes"><i></i><i></i><i></i></div>
+                            </div>
+                        </div>
+                        <div class="project-row">
+                            <span class="num">03</span>
+                            <div>
+                                <h3>Personal Portfolio</h3>
+                                <p>HTML • CSS • JavaScript</p>
+                            </div>
+                            <span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener">Live Demo ↗</a>
+                            <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= EDUCATION · SKILLS · PROCESS ================= -->
+        <section id="skills" class="sec trio-section">
+            <div class="container trio">
+
+                <div class="trio-col">
+                    <h2>Education &amp; Skills</h2>
+
+                    <h4 class="label">Education</h4>
+                    <ul class="edu">
+                        <li><div><strong>Intermediate — Computer Science</strong><span>Computer Science background</span></div><em>Completed</em></li>
+                        <li><div><strong>Web Development Diploma</strong><span>Practical web development &amp; programming</span></div><em>Ongoing</em></li>
+                        <li><div><strong>Online Certifications</strong><span>Simplilearn, HP LIFE, Microsoft &amp; Google Cloud courses</span></div><em>2026</em></li>
+                    </ul>
+
+                    <h4 class="label">Skills</h4>
+                    <div class="chips">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>C</span><span>C++</span><span>Python</span>
+                        <span>Git</span><span>GitHub</span><span>VS Code</span><span>Excel</span><span>Power Query</span>
+                        <span>ChatGPT</span><span>GitHub Copilot</span><span>Prompt Engineering</span><span>Cloud Basics</span><span>Cybersecurity</span>
+                    </div>
+                </div>
+
+                <div class="trio-col">
+                    <h2>Work Process</h2>
+                    <ol class="process">
+                        <li><span class="p-num">01</span><span class="p-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg></span><div><h5>Discover</h5><p>Understanding the goal, the audience and what the website needs to do.</p></div></li>
+                        <li><span class="p-num">02</span><span class="p-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3Z"/></svg></span><div><h5>Ideate</h5><p>Planning the layout, structure and the right idea.</p></div></li>
+                        <li><span class="p-num">03</span><span class="p-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m4 20 1-4L16.5 4.5a2.1 2.1 0 0 1 3 3L8 19l-4 1Z"/></svg></span><div><h5>Design</h5><p>Crafting clean visuals with a focus on user experience.</p></div></li>
+                        <li><span class="p-num">04</span><span class="p-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></span><div><h5>Develop</h5><p>Building fast, responsive pages with HTML, CSS and JavaScript.</p></div></li>
+                        <li><span class="p-num">05</span><span class="p-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3 10 14M21 3l-7 18-4-7-7-4 18-7Z"/></svg></span><div><h5>Deliver</h5><p>Testing, polishing and launching with care.</p></div></li>
+                    </ol>
+                </div>
+
+                <aside class="trio-col quote">
+                    <span class="qmark">“</span>
+                    <p>Learning never stops — every line of code I write makes the next one better.</p>
+                    <span class="sign">Qirat</span>
+                    <small>Let's create something great together.</small>
+                </aside>
+
+            </div>
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+        <section id="experience" class="sec experience-section">
+            <div class="container">
+                <div class="sec-head">
+                    <h2>Internships &amp; Training</h2>
+                    <span class="rule"></span>
+                </div>
+
+                <div class="exp-grid">
+                    <article class="exp-card">
+                        <span class="exp-date">20 Mar – 20 Apr 2026</span>
+                        <h3>C Programming Intern</h3>
+                        <h4>CodeAlpha · Virtual Internship</h4>
+                        <p>Completed a one-month virtual internship focused on C programming, hands-on tasks and problem solving.</p>
+                        <a href="#certificates" class="exp-link" data-filter-link="internship">View documents <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+                    </article>
+
+                    <article class="exp-card">
+                        <span class="exp-date">1 Jul – 30 Aug 2026</span>
+                        <h3>C++ Programming Intern</h3>
+                        <h4>Arch Technologies · Remote, 8 weeks</h4>
+                        <p>Remote C++ Internship and Training Program covering orientation, concepts and hands-on application.</p>
+                        <a href="#certificates" class="exp-link" data-filter-link="internship">View documents <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= CERTIFICATES ================= -->
+        <section id="certificates" class="sec certificates-section">
+            <div class="container">
+                <div class="sec-head">
+                    <h2>Certificates</h2>
+                    <span class="rule"></span>
+                    <span class="head-link static">14 documents</span>
+                </div>
+
+                <div class="cert-filters" role="tablist" aria-label="Filter certificates">
+                    <button class="filter-btn active" type="button" data-filter="all">All <em>14</em></button>
+                    <button class="filter-btn" type="button" data-filter="internship">Internships <em>3</em></button>
+                    <button class="filter-btn" type="button" data-filter="dev">Dev &amp; Tools <em>3</em></button>
+                    <button class="filter-btn" type="button" data-filter="ai">AI <em>5</em></button>
+                    <button class="filter-btn" type="button" data-filter="sec">Cloud &amp; Security <em>3</em></button>
+                </div>
+
+                <div class="certificates-grid" id="certGrid">
+
+                    <article class="cert-card" data-cat="internship">
+                        <button class="cert-thumb" type="button" data-full="codealpha-completion.jpg" data-title="C Programming Internship — Certificate of Completion" aria-label="View C Programming Internship — Certificate of Completion">
+                            <img src="codealpha-completion.jpg" alt="C Programming Internship — Certificate of Completion certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Completion</span>
+                            <h3>C Programming Internship — Certificate of Completion</h3>
+                            <p>CodeAlpha</p>
+                            <time>21 Apr 2026</time>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-cat="internship">
+                        <button class="cert-thumb" type="button" data-full="codealpha-offer-letter.jpg" data-title="C Programming Internship — Offer Letter" aria-label="View C Programming Internship — Offer Letter">
+                            <img src="codealpha-offer-letter.jpg" alt="C Programming Internship — Offer Letter certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Offer Letter</span>
+                            <h3>C Programming Internship — Offer Letter</h3>
+                            <p>CodeAlpha</p>
+                            <time>11 Mar 2026</time>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-cat="internship">
+                        <button class="cert-thumb" type="button" data-full="arch-offer-letter.jpg" data-title="C++ Programming Internship & Training Program" aria-label="View C++ Programming Internship & Training Program">
+                            <img src="arch-offer-letter.jpg" alt="C++ Programming Internship & Training Program certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Offer Letter</span>
+                            <h3>C++ Programming Internship & Training Program</h3>
+                            <p>Arch Technologies</p>
+                            <time>1 Jul – 30 Aug 2026</time>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-cat="dev">
+                        <button class="cert-thumb" type="button" data-full="c-programming-basics.jpg" data-title="C Programming Basics" aria-label="View C Programming Basics">
+                            <img src="c-programming-basics.jpg" alt="C Programming Basics certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Course</span>
+                            <h3>C Programming Basics</h3>
+                            <p>Simplilearn SkillUP</p>
+                            <time>11 Apr 2026</time>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-cat="dev">
+                        <button class="cert-thumb" type="button" data-full="web-development-chatgpt.jpg" data-title="Introduction to Web Development with ChatGPT" aria-label="View Introduction to Web Development with ChatGPT">
+                            <img src="web-development-chatgpt.jpg" alt="Introduction to Web Development with ChatGPT certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Course</span>
+                            <h3>Introduction to Web Development with ChatGPT</h3>
+                            <p>Simplilearn SkillUP</p>
+                            <time>11 Apr 2026</time>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-cat="dev">
+                        <button class="cert-thumb" type="button" data-full="power-query-excel.jpg" data-title="Introduction to Power Query in Excel Basics" aria-label="View Introduction to Power Query in Excel Basics">
+                            <img src="power-query-excel.jpg" alt="Introduction to Power Query in Excel Basics certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Course</span>
+                            <h3>Introduction to Power Query in Excel Basics</h3>
+                            <p>Microsoft × Simplilearn</p>
+                            <time>12 Apr 2026</time>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-cat="ai">
+                        <button class="cert-thumb" type="button" data-full="chatgpt-101.jpg" data-title="ChatGPT 101: What is ChatGPT?" aria-label="View ChatGPT 101: What is ChatGPT?">
+                            <img src="chatgpt-101.jpg" alt="ChatGPT 101: What is ChatGPT? certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Course</span>
+                            <h3>ChatGPT 101: What is ChatGPT?</h3>
+                            <p>Simplilearn SkillUP</p>
+                            <time>30 Mar 2026</time>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-cat="ai">
+                        <button class="cert-thumb" type="button" data-full="prompt-engineering-copilot.jpg" data-title="Introduction to Prompt Engineering with GitHub Copilot" aria-label="View Introduction to Prompt Engineering with GitHub Copilot">
+                            <img src="prompt-engineering-copilot.jpg" alt="Introduction to Prompt Engineering with GitHub Copilot certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Course</span>
+                            <h3>Introduction to Prompt Engineering with GitHub Copilot</h3>
+                            <p>Microsoft × Simplilearn</p>
+                            <time>31 Mar 2026</time>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-cat="ai">
+                        <button class="cert-thumb" type="button" data-full="generative-ai-studio.jpg" data-title="Introduction to Generative AI Studio" aria-label="View Introduction to Generative AI Studio">
+                            <img src="generative-ai-studio.jpg" alt="Introduction to Generative AI Studio certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Course</span>
+                            <h3>Introduction to Generative AI Studio</h3>
+                            <p>Google Cloud × Simplilearn</p>
+                            <time>1 Apr 2026</time>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-cat="ai">
+                        <button class="cert-thumb" type="button" data-full="hp-ai-for-beginners.jpg" data-title="AI for Beginners" aria-label="View AI for Beginners">
+                            <img src="hp-ai-for-beginners.jpg" alt="AI for Beginners certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Course</span>
+                            <h3>AI for Beginners</h3>
+                            <p>HP LIFE · HP Foundation</p>
+                            <time>9 Apr 2026</time>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-cat="ai">
+                        <button class="cert-thumb" type="button" data-full="generative-ai-literacy.jpg" data-title="SkillQuest — Generative AI Literacy" aria-label="View SkillQuest — Generative AI Literacy">
+                            <img src="generative-ai-literacy.jpg" alt="SkillQuest — Generative AI Literacy certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Assessment</span>
+                            <h3>SkillQuest — Generative AI Literacy</h3>
+                            <p>Simplilearn SkillUP</p>
+                            <time>12 Oct 2026</time>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-cat="sec">
+                        <button class="cert-thumb" type="button" data-full="cloud-computing.jpg" data-title="Introduction to Cloud Computing" aria-label="View Introduction to Cloud Computing">
+                            <img src="cloud-computing.jpg" alt="Introduction to Cloud Computing certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Course</span>
+                            <h3>Introduction to Cloud Computing</h3>
+                            <p>Simplilearn SkillUP</p>
+                            <time>28 Mar 2026</time>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-cat="sec">
+                        <button class="cert-thumb" type="button" data-full="cyber-security.jpg" data-title="Introduction to Cyber Security" aria-label="View Introduction to Cyber Security">
+                            <img src="cyber-security.jpg" alt="Introduction to Cyber Security certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Course</span>
+                            <h3>Introduction to Cyber Security</h3>
+                            <p>Simplilearn SkillUP</p>
+                            <time>11 Apr 2026</time>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" data-cat="sec">
+                        <button class="cert-thumb" type="button" data-full="hp-cybersecurity-awareness.jpg" data-title="Introduction to Cybersecurity Awareness" aria-label="View Introduction to Cybersecurity Awareness">
+                            <img src="hp-cybersecurity-awareness.jpg" alt="Introduction to Cybersecurity Awareness certificate" loading="lazy">
+                        </button>
+                        <div class="cert-info">
+                            <span class="cert-kind">Course</span>
+                            <h3>Introduction to Cybersecurity Awareness</h3>
+                            <p>HP LIFE · HP Foundation</p>
+                            <time>9 Apr 2026</time>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section id="contact" class="sec contact-section">
+            <div class="container contact-grid">
+
+                <div class="contact-intro">
+                    <h2>Let's Work<br>Together</h2>
+                    <p>I'm open to internships, collaborations and new projects. Let's create something amazing together.</p>
+                    <a href="mailto:qiratiqbal987@gmail.com" class="primary-btn">Email Me Directly</a>
+                </div>
+
+                <div class="contact-rows">
+                    <a class="c-row" id="contactRow" href="mailto:qiratiqbal987@gmail.com"><span class="c-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><span id="contactEmail">qiratiqbal987@gmail.com</span></a>
+                    <a class="c-row" href="https://github.com/qirat-programmer" target="_blank" rel="noopener"><span class="c-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></span><span>github.com/qirat-programmer</span></a>
+                    <a class="c-row" href="https://www.linkedin.com/in/qirat-iqbal/" target="_blank" rel="noopener"><span class="c-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg></span><span>linkedin.com/in/qirat-iqbal</span></a>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="primary-btn">Send Message</button>
+                    <p class="form-note" id="formNote" role="status"></p>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>© 2026 Qirat. All Rights Reserved.</p>
+            <a href="#home" class="to-top">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <!-- ================= CERTIFICATE LIGHTBOX ================= -->
+    <div class="lightbox" id="lightbox" hidden>
+        <button class="lb-close" type="button" aria-label="Close">×</button>
+        <figure>
+            <img id="lbImg" src="" alt="">
+            <figcaption id="lbCap"></figcaption>
+        </figure>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
